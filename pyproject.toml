@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ai-camera-control"
+version = "0.1.0"
+description = "AI camera remote control"
+authors = ["storvus <anton.scherbatov@invitae.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ultralytics = "^8.4.13"
+opencv-python = "^4.13.0.92"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
